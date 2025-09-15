@@ -1,0 +1,11 @@
+CS 310 - W2 Filesystem Explorer
+10/14/25
+Heidi Blank
+
+How do you accept command-line arguments?
+- Command-line arguments are accepted when a script is run with the temporary parameters for the script to use.
+The script then accepts these arguments and puts them into variables like $1, $2, etc. for example to be used in the script.
+
+What other programs did you use to complete this assignment? (I mean things like cat, sed, etc. Not AI)
+- To complete this assignment I used realpath for the path of the file, file to determine whether it was a file or directory,
+du -h to get the file size, and file -b --mime-type to get the file content.
